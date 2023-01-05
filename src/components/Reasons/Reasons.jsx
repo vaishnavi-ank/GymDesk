@@ -21,7 +21,7 @@ const Reasons = () => {
         </div>
         <div className="right-r">
             <span>Some reasons</span>
-            <div><span className='stroke-text'>why</span><span> choose  us?</span>
+            <div><span >why</span><span> choose  us?</span>
             </div>
         
 
@@ -48,11 +48,9 @@ const Reasons = () => {
     color: 'var(--gray)',
     fontWeight: 'normal',
 
-  }}>OUR PARTNERS</span>
-    <div className="partners">
-        <img src={nb} alt="" />
-        <img src={adidas} alt="" />
-        <img src={nike} alt="" /></div>
+  }}
+  ></span>
+    
 
 
 

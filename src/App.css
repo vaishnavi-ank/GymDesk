@@ -27,6 +27,7 @@
   font-family: Arial, Helvetica, sans-serif;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white ;
+  font-size: 2rem;
 
 }
 
@@ -43,4 +44,12 @@
 .btn:hover{
   cursor: pointer;
   
+}
+
+.blur{
+  background: rgba(253, 120, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(190px);
+  z-index: -9;
 }
